@@ -9,16 +9,7 @@
     background-position: center;
     background-size: cover;
 }
-.header
-{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-}
+
 input{
     height: 20%;
     margin-left: 80%;
@@ -43,6 +34,7 @@ button{
     border-radius: 5px;
     margin-left: 50%;
     animation: Navanim 1s ease forwards;
+    display: flex;
 }
 ul{
     display: flex;
@@ -53,6 +45,8 @@ li{
     flex: 1;
     text-align: end;
     transition: transform 0.5s;
+    display: inline-block;
+    padding: 0 10px;
 }
 a{
     text-decoration: none;
@@ -81,7 +75,7 @@ h1{
     display: flex;
     color: rgb(0, 0, 0);
     align-items: center;
-    margin-left: 50px;
+    padding: 100px;
 }
 p{
     color: white;
@@ -164,7 +158,7 @@ h1:hover{
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 25px;
+    margin: 10px 15px;
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(pic4.png);
     background-position: center;
     background-size: cover;
@@ -181,6 +175,7 @@ h1:hover{
     padding-left: 20%;
     animation: Booksanim 1s ease forwards;
     margin-top: 100px;
+    
 }
 .card1:hover{
     scale: 1.2;
@@ -216,4 +211,29 @@ h2{
         transform: translateZ(100px);
         opacity: 1;
     }
+}
+.Headerr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #089da1;
+    background: #fff;
+    position: fixed;
+    left: 0%;
+    z-index: 100;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin: 8px 0;    
+    padding: 5px;
+}
+.Social{
+    color: black;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: inline-block;
 }
