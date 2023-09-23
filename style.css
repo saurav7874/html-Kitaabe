@@ -79,7 +79,6 @@ h1{
 }
 .main{
     display: flex;
-    height: 80%;
     color: white;
     align-items: center;
     margin-left: 50px;
@@ -93,14 +92,14 @@ h1:hover{
 }
 #Butt{
     border-radius: 20px;
-    background-color: rgb(52, 15, 110);
+    background-color: rgb(177, 4, 4);
     color: white;
     width: 180PX;
-    height: 5%;
-    font-size: 15px;
-    padding: 12px 0;
-    margin-top: 20px;
-    margin-left: 20px;
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .card1{
     width: 250px;
@@ -177,6 +176,7 @@ h1:hover{
     gap: 2px;
     padding-left: 20%;
     animation: Booksanim 1s ease forwards;
+    margin-top: 100px;
 }
 .card1:hover{
     scale: 1.2;
